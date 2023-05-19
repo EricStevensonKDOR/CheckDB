@@ -1,6 +1,8 @@
 // Program:     CheckDB
 // Author:      Eric Stevenson
-// Version:     08/02/2022
+// Created:     08/02/2022
+// Update:      5/19/23, IR-C&EKS003599-01
+
 // Description: Checks counts of the user-selected database against the Pre-Production database to ensure refresh was successful.
 
 #include <iostream>
@@ -38,11 +40,11 @@ int main()
         "RVQ52M","RVPRCM","RVRPCM","RVTRCM","RVPPCM"
     };
     std::vector<std::string> atpDB{
-        "RVA2T2","RVBFT2","RVCLT2","RVCTT2","RVF1T2","RVGDCS","RVGDT2","RVGDTT","RVI2T2","RVI3T2",
-        "RVI4T2","RVI5T2","RVI6T2","RVI7T2","RVI8T2","RVI9T2","RVI9T2","RVIAT2","RVIBT2","RVIFT2",
-        "RVIGT2","RVIHT2","RVIJT2","RVR1T2","RVR2T2","RVR3T2","RVRPT2","RVR4T2","RVS1T2","RVS2T2",
-        "RVS3T2","RVSTAG","RVW2T2","RVWPT2","RVQ01P","RVQ02P","RVQ03P","RVQ04P","RVQ50P","RVQ51P",
-        "RVQ52P","RVPRT2","RVP2T2"
+        "RVA2T2","RVBFT2","RVCLT2","RVCGT2","RVCTT2","RVDDGS","RVF1T2","RVGDCS","RVGDT2","RVGDTT",
+        "RVI2T2","RVI3T2","RVI4T2","RVI5T2","RVI6T2","RVI7T2","RVI8T2","RVI9T2","RVI9T2","RVIAT2",
+        "RVIBT2","RVIFT2","RVIGT2","RVIHT2","RVIJT2","RVLAGS","RVR1T2","RVR2T2","RVR3T2","RVRPT2",
+        "RVR4T2","RVS1T2","RVS2T2","RVS3T2","RVSTAG","RVW2T2","RVWPT2","RVQ01P","RVQ02P","RVQ03P",
+        "RVQ04P","RVQ05P","RVQ06P","RVQ50P","RVQ51P","RVQ52P","RVPRT2","RVP2T2"
     };
     //menu
     cout << endl;
